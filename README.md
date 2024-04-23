@@ -10,4 +10,4 @@ This code was created by me and was created in the vision that eventually I will
 
 
 23/04/2024
-I have managed to get the code to work along with adding two batch files in order for the script to run correctly, also on a side note, my kaspersky anti-virus did not detect this when running which it usually does which is cool!.
+I have managed to get the code to work along with adding two batch files in order for the script to run correctly, also on a side note, my kaspersky anti-virus did not detect this as it was running when it usually would detect it which is cool!.
