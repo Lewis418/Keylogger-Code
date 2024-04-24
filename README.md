@@ -2,11 +2,11 @@
 HOW TO USE:
 In order to get this code to work, you must download the 5 main files titled Python-installer.bat, keyboard-package-check.bat, K-logger_Code.py, K-logger-internal-code.bat and K-logger-start.bat. once you have these files downloaded in the same directory, you only have to start the K-logger-start.bat file in order to start the keylogger, once the keylogger has started it will run all cmd prompts in a minimized window, the first window will check to see if python is installed and if not it will install python through the command line, the second window with be the package check file which checks to see if you have the keyboard module installed, if not then it will be installed, The third and final prompt is the keylogger itself and it will document what keys where pressed for as long as the cmd prompt stays open, it will document the keys pressed within a .txt file named keystrokes.txt which will be in the same directory as the other files.
 
-#Testing
+# Testing
 For testing I used a windows 10 virtual machine to test the python install script and the keyboard module check script of which both scripts where succesful in downloading content where content was missing and not downloading anything when the program and module where already installed.
 
 
-
+# Notes
 22/04/2024 03:00 AM
 This code was created by me and was created in the vision that eventually I will have made a functioning Keylogger to prove that I can actually code stuff and things.
 
