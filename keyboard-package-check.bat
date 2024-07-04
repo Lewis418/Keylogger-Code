@@ -1,12 +1,9 @@
 @echo off
 :start
 pip list > pip-list-keyboard-check.txt
-
 set FILE=pip-list-keyboard-check.txt
 set SEARCH_STRING=keyboard
-
 set "FOUND=0"
-
 for /f "usebackq tokens=*" %%a in ("%FILE%") do (
     echo %%a | findstr /i "%SEARCH_STRING%" >nul
     if not errorlevel 1 (
@@ -15,7 +12,6 @@ for /f "usebackq tokens=*" %%a in ("%FILE%") do (
         set "FOUND=1"
     )
 )
-
 if "%FOUND%"=="0" (
     echo "%SEARCH_STRING%" not found in file "%FILE%"
     echo Installing new package!.
@@ -23,4 +19,3 @@ if "%FOUND%"=="0" (
 )
 del pip-list-keyboard-check.txt
 exit
-

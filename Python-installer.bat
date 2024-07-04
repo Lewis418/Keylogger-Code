@@ -1,7 +1,5 @@
 @echo off
- 
 where python > nul 2>&1
- 
 if %errorlevel% == 0 (
 	echo Python is installed.
 	echo Exiting now ...
@@ -14,6 +12,5 @@ if %errorlevel% == 0 (
 	set INSTALLER_FILENAME=python-%PYTHON_VERSION%-amd64.exe
 	curl -o %INSTALLER_FILENAME% %PYTHON_URL%
 	%INSTALLER_FILENAME% /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
-	python --version
 	del %INSTALLER_FILENAME%
 )
